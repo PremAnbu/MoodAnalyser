@@ -11,7 +11,7 @@ namespace MoodAnalysis
         public static void Main()
         {
             MoodAnalysisClass m=new MoodAnalysisClass();
-            MoodAnalyser analyser=new MoodAnalyser("I Am In happy Mood");
+            MoodAnalyser analyser=new MoodAnalyser("I Am In sad Mood");
            // MoodAnalyser analyser = new MoodAnalyser();
 
             MoodAnalyser obj = m.analysisMood(analyser);

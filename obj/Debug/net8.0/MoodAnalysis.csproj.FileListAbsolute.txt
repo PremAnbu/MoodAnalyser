@@ -12,3 +12,4 @@ C:\DotNet\ModdAnalysis\ModdAnalysis\obj\Debug\net8.0\refint\MoodAnalysis.dll
 C:\DotNet\ModdAnalysis\ModdAnalysis\obj\Debug\net8.0\MoodAnalysis.pdb
 C:\DotNet\ModdAnalysis\ModdAnalysis\obj\Debug\net8.0\MoodAnalysis.genruntimeconfig.cache
 C:\DotNet\ModdAnalysis\ModdAnalysis\obj\Debug\net8.0\ref\MoodAnalysis.dll
+C:\DotNet\ModdAnalysis\ModdAnalysis\obj\Debug\net8.0\MoodAnalysis.sourcelink.json

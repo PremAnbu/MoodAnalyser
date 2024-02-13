@@ -10,10 +10,12 @@ namespace MoodAnalysis
     {
         public MoodAnalyser analysisMood(MoodAnalyser obj)
         {
-            string val = obj.mood.ToLower().Split(" ").Contains("sad") ? "SAD" : "HAPPY";
+            if (obj.mood == null)
+                return new MoodAnalyser("HAPPY");
+            string val = obj.mood.ToLower().Split(" ").Contains("sad") ? "HAPPY":"SAD"  ;
             try
             {
-                if(! (val.Contains("SAD"))||(val.Contains("HAPPY")))
+                if(!((val.Contains("SAD"))||(val.Contains("HAPPY"))))
                 {
                     throw new InvalidMoodException("Invalid Mood .......!!!");
                 }

@@ -1,0 +1,14 @@
+C:\DotNet\ModdAnalysis\ModdAnalysis\bin\Debug\net8.0\MoodAnalysis.exe
+C:\DotNet\ModdAnalysis\ModdAnalysis\bin\Debug\net8.0\MoodAnalysis.deps.json
+C:\DotNet\ModdAnalysis\ModdAnalysis\bin\Debug\net8.0\MoodAnalysis.runtimeconfig.json
+C:\DotNet\ModdAnalysis\ModdAnalysis\bin\Debug\net8.0\MoodAnalysis.dll
+C:\DotNet\ModdAnalysis\ModdAnalysis\bin\Debug\net8.0\MoodAnalysis.pdb
+C:\DotNet\ModdAnalysis\ModdAnalysis\obj\Debug\net8.0\MoodAnalysis.GeneratedMSBuildEditorConfig.editorconfig
+C:\DotNet\ModdAnalysis\ModdAnalysis\obj\Debug\net8.0\MoodAnalysis.AssemblyInfoInputs.cache
+C:\DotNet\ModdAnalysis\ModdAnalysis\obj\Debug\net8.0\MoodAnalysis.AssemblyInfo.cs
+C:\DotNet\ModdAnalysis\ModdAnalysis\obj\Debug\net8.0\MoodAnalysis.csproj.CoreCompileInputs.cache
+C:\DotNet\ModdAnalysis\ModdAnalysis\obj\Debug\net8.0\MoodAnalysis.dll
+C:\DotNet\ModdAnalysis\ModdAnalysis\obj\Debug\net8.0\refint\MoodAnalysis.dll
+C:\DotNet\ModdAnalysis\ModdAnalysis\obj\Debug\net8.0\MoodAnalysis.pdb
+C:\DotNet\ModdAnalysis\ModdAnalysis\obj\Debug\net8.0\MoodAnalysis.genruntimeconfig.cache
+C:\DotNet\ModdAnalysis\ModdAnalysis\obj\Debug\net8.0\ref\MoodAnalysis.dll

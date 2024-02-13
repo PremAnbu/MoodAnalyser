@@ -38,5 +38,12 @@ namespace MoodAnalysis
             }
             return new MoodAnalyser(val);
         }
+
+        public bool bothObjectEqualOrNot(MoodAnalyser a,MoodAnalyser b)
+        {
+            if(a.Equals(b))
+                return true;
+            return false;
+        }
     }
 }

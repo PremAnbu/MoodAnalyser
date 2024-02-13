@@ -10,8 +10,18 @@ namespace MoodAnalysis
     {
         public MoodAnalyser analysisMood(MoodAnalyser obj)
         {
-            if (obj.mood == null)
-                return new MoodAnalyser("HAPPY");
+            try
+            {
+                if (obj.mood == null)
+                    throw new MoodAnalysisException("Mood Can't be : " + EnumChoice.Null);
+                else if (obj.mood.Equals(""))
+                    throw new MoodAnalysisException("Mood Can't be : " + EnumChoice.Empty);
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return new MoodAnalyser("");
+            }
             string val = obj.mood.ToLower().Split(" ").Contains("sad") ? "HAPPY":"SAD"  ;
             try
             {
@@ -23,7 +33,8 @@ namespace MoodAnalysis
             catch(Exception ex)
             {
                 Console.WriteLine(ex.Message);
-                return null;
+                return new MoodAnalyser("");
+
             }
             return new MoodAnalyser(val);
         }

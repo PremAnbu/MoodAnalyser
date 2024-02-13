@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MoodAnalysis")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f534edce47a0389dba68f4b1d5f609c0c6c1e1e0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+365d9bc2c85fdf7d334b5e9c001ae0c6e965cf90")]
 [assembly: System.Reflection.AssemblyProductAttribute("MoodAnalysis")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MoodAnalysis")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

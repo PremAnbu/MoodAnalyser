@@ -10,15 +10,27 @@ namespace MoodAnalysis
     {
         public static void Main()
         {
-            MoodAnalysisClass m=new MoodAnalysisClass();
-            MoodAnalyser analyser=new MoodAnalyser("I Am In happy Mood");
-           // MoodAnalyser analyser = new MoodAnalyser();
+          
+                MoodAnalysisClass m = new MoodAnalysisClass();
+            // MoodAnalyser analyser = new MoodAnalyser("");
+            // MoodAnalyser analyser = new MoodAnalyser();
+            MoodAnalyser analyser1 = MoodAnalyser.getObject(null);
+           // analyser1.mood = "I am happy";
+            MoodAnalyser mo1 = m.analysisMood(analyser1);
 
-            MoodAnalyser obj = m.analysisMood(analyser);
-            if (obj != null)
+            MoodAnalyser analyser2 = MoodAnalyser.getObject("happy");
+            //analyser2.mood = "I am happy";
+            if (m.bothObjectEqualOrNot(analyser1, analyser2))
+                Console.WriteLine("Both object are Same");
+            else
+                Console.WriteLine("Both object are different");
+
+
+            if (mo1 != null)
             {
-                Console.WriteLine(obj.mood);
+                Console.WriteLine(mo1.mood);
             }
+          
         }
     }
 }   

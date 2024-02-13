@@ -14,4 +14,7 @@ namespace MoodAnalysis
         public InvalidMoodException(string message) : base(message) { 
         }
     }
+    public class MoodAnalysisException : Exception { 
+        public MoodAnalysisException(string message) : base(message) { }
+    }
 }

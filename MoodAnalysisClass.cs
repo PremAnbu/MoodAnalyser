@@ -34,11 +34,9 @@ namespace MoodAnalysis
             {
                 Console.WriteLine(ex.Message);
                 return new MoodAnalyser("");
-
             }
             return new MoodAnalyser(val);
         }
-
         public bool bothObjectEqualOrNot(MoodAnalyser a,MoodAnalyser b)
         {
             if(a.Equals(b))

@@ -15,10 +15,10 @@ namespace MoodAnalysis
         }
 
         public static MoodAnalyser m=null;
-        public static MoodAnalyser getObject()
+        public static MoodAnalyser getObject(String s)
         {
             if (m == null)
-                return new MoodAnalyser();
+                return new MoodAnalyser(s);
             return null;
         }
         public override bool Equals(object obj)

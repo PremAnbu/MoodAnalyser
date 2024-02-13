@@ -14,12 +14,12 @@ namespace MoodAnalysis
                 MoodAnalysisClass m = new MoodAnalysisClass();
             // MoodAnalyser analyser = new MoodAnalyser("");
             // MoodAnalyser analyser = new MoodAnalyser();
-            MoodAnalyser analyser1 = MoodAnalyser.getObject();
-            analyser1.mood = "I am happy";
+            MoodAnalyser analyser1 = MoodAnalyser.getObject(null);
+           // analyser1.mood = "I am happy";
             MoodAnalyser mo1 = m.analysisMood(analyser1);
 
-            MoodAnalyser analyser2 = MoodAnalyser.getObject();
-            analyser2.mood = "I am happy";
+            MoodAnalyser analyser2 = MoodAnalyser.getObject("happy");
+            //analyser2.mood = "I am happy";
             if (m.bothObjectEqualOrNot(analyser1, analyser2))
                 Console.WriteLine("Both object are Same");
             else
